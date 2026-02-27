@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nbdev_test"
+dynamic = ["version"]
+description = "just checking how nbdev works"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
+authors = [{name = "vikasAWA", email = "awasthivikas02@gmail.com"}]
+keywords = ['nbdev']
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+]
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/vikasAWA/nbdev_test"
+Documentation = "https://vikasAWA.github.io/nbdev_test/"
+
+[project.entry-points.nbdev]
+nbdev_test = "nbdev_test._modidx:d"
+
+[tool.setuptools.dynamic]
+version = {attr = "nbdev_test.__version__"}
+
+[tool.setuptools.packages.find]
+include = ["nbdev_test"]
+
+[tool.nbdev]
