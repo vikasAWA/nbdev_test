@@ -5,4 +5,5 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://vikasAWA.github.io',
                 'git_url': 'https://github.com/vikasAWA/nbdev_test',
                 'lib_path': 'nbdev_test'},
-  'syms': {'nbdev_test.core': {'nbdev_test.core.foo': ('core.html#foo', 'nbdev_test/core.py')}}}
+  'syms': { 'nbdev_test.core': { 'nbdev_test.core.add': ('core.html#add', 'nbdev_test/core.py'),
+                                 'nbdev_test.core.foo': ('core.html#foo', 'nbdev_test/core.py')}}}
