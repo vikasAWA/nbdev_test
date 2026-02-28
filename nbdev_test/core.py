@@ -5,10 +5,10 @@
 # %% auto #0
 __all__ = ['foo', 'add']
 
-# %% ../nbs/00_core.ipynb #e12cbed8
+# %% ../nbs/00_core.ipynb #f37b6c03
 def foo(): pass
 
-# %% ../nbs/00_core.ipynb #2bf8bc28
+# %% ../nbs/00_core.ipynb #9a1c7739
 def add(*ar: int):
     "Adding any number of arguments"
     return sum(ar)
